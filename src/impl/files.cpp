@@ -2,6 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include "../headers/files.hpp"
 
 std::vector<std::string> read_words_file() {
   std::ifstream file;

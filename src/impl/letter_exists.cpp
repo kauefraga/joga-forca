@@ -1,4 +1,5 @@
 #include <string>
+#include "../headers/letter_exists.hpp"
 
 std::string secret;
 

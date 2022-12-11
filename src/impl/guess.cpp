@@ -1,7 +1,8 @@
 #include <iostream>
 #include <map>
 #include <vector>
-#include "letter_exists.cpp"
+#include "../headers/guess.hpp"
+#include "../headers/letter_exists.hpp"
 
 std::map<char, bool> guessed;
 std::vector<char> wrong_guesses;

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <map>
-
+#include "../headers/show_words.hpp"
 
 std::string secret;
 std::map<char, bool> guessed;

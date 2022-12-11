@@ -1,5 +1,6 @@
 #include <string>
 #include <map>
+#include "../headers/is_wrong_answer.hpp"
 
 std::string secret;
 std::map<char, bool> guessed;

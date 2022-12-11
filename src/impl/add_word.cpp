@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "files.cpp"
+#include "../headers/add_word.hpp"
+#include "../headers/files.hpp"
 
 void add_word() {
   std::cout << "Digite a palavra, usando letras maiúsculas." << std::endl;

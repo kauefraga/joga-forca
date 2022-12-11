@@ -1,4 +1,5 @@
 #include <iostream>
+#include "../headers/show_header.hpp"
 
 void show_header() {
   std::cout << "*********************" << std::endl;

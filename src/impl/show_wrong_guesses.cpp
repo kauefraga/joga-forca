@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "../headers/show_wrong_guesses.hpp"
 
 std::vector<char> wrong_guesses;
 

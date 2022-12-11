@@ -2,7 +2,7 @@
 #include <vector>
 #include <ctime>
 #include <cstdlib>
-
+#include "../headers/set_random_word.hpp"
 #include "files.cpp"
 
 std::string secret;
