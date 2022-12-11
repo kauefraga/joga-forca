@@ -36,13 +36,13 @@ make src/main
 ## 💻 Tecnologias
 
 - [C++](https://en.wikipedia.org/wiki/C++)
-  - iostream - Control input/output flux (stream)
-  - fstream - Control files flux (i/o stream)
-  - string - Add a data structure called 'string' that is, generically, a array of chars
-  - map - Add a data structure that works with key-value pairs
-  - vector - Add a data structure similar to arrays but totally dynamic
-  - ctime - Add time stamp (i guess) functions
-  - cstdlib - Has a bunch of functions, but in this project we are using the srand/rand functions
+  - iostream - Controla o fluxo de entrada e saída de dados
+  - fstream - Controla o fluxo de arquivos (entrada e saída)
+  - string - Adiciona a estrutura de dados "string" que é uma cadeia (array) de caracteres
+  - map - Adiciona a estrutura de dados "map" que é funciona com pares chave-valor
+  - vector - Adiciona a estrutura de dados "vector" que é similar ao array mas totalmente dinâmico
+  - ctime - Implementa funções de tempo
+  - cstdlib - Tem muitas funções, mas neste projeto usamos as funções srand/rand
 
 ## 📝 Licença
 
