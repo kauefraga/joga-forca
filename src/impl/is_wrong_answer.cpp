@@ -2,8 +2,8 @@
 #include <map>
 #include "../headers/is_wrong_answer.hpp"
 
-std::string secret;
-std::map<char, bool> guessed;
+extern std::string secret;
+extern std::map<char, bool> guessed;
 
 bool is_wrong_answer() {
   for(char letter : secret) {

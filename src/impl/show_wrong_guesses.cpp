@@ -2,7 +2,7 @@
 #include <vector>
 #include "../headers/show_wrong_guesses.hpp"
 
-std::vector<char> wrong_guesses;
+extern std::vector<char> wrong_guesses;
 
 void show_wrong_guesses() {
   std::cout << "Chutes errados: ";

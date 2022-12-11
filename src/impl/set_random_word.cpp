@@ -3,9 +3,9 @@
 #include <ctime>
 #include <cstdlib>
 #include "../headers/set_random_word.hpp"
-#include "files.cpp"
+#include "../headers/files.hpp"
 
-std::string secret;
+extern std::string secret;
 
 void set_random_word() {
   std::vector<std::string> words = read_words_file();

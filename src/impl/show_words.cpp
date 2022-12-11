@@ -3,8 +3,8 @@
 #include <map>
 #include "../headers/show_words.hpp"
 
-std::string secret;
-std::map<char, bool> guessed;
+extern std::string secret;
+extern std::map<char, bool> guessed;
 
 void show_words() {
   for(char letter : secret) {

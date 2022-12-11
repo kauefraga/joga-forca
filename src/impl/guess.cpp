@@ -4,8 +4,8 @@
 #include "../headers/guess.hpp"
 #include "../headers/letter_exists.hpp"
 
-std::map<char, bool> guessed;
-std::vector<char> wrong_guesses;
+extern std::map<char, bool> guessed;
+extern std::vector<char> wrong_guesses;
 
 void guess() {
   std::cout << "Seu chute: ";

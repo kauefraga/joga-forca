@@ -1,7 +1,7 @@
 #include <string>
 #include "../headers/letter_exists.hpp"
 
-std::string secret;
+extern std::string secret;
 
 bool letter_exists(char guess) {
   for(char letter : secret) {
